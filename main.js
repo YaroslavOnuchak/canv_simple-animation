@@ -102,7 +102,7 @@ class FlowFieldEffect {
         } else {
             this.timer += deltaTime
         }
-        console.log('pablic', 100_00_23)
+        // console.log('pablic', 100_00_23)
         flowFieldAnimation = requestAnimationFrame(this.animate.bind(this))
     }
 }
